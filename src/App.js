@@ -1,4 +1,3 @@
-
 import "./App.css";
 import HomePage from "./Pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -9,7 +8,7 @@ import WatchList from "./Pages/WatchList";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/crypto">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
