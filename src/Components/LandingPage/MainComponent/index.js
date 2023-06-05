@@ -27,7 +27,7 @@ function MainComponent() {
       </div>
       <div className="phone-container">
         <motion.img
-          src={iphone}
+          src={require("../../../Assets/iphone.png")}
           className="iphone"
           initial={{ y: -10 }}
           animate={{ y: 10 }}

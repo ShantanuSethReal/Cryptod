@@ -8,7 +8,7 @@ import WatchList from "./Pages/WatchList";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/crypto">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
