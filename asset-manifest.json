@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Cryptod/static/css/main.7ca172d0.css",
+    "main.js": "/Cryptod/static/js/main.546c94a5.js",
+    "static/js/787.9d1fb4db.chunk.js": "/Cryptod/static/js/787.9d1fb4db.chunk.js",
+    "static/media/iphone.png": "/Cryptod/static/media/iphone.080029ada53f0cd57453.png",
+    "static/media/gradient.png": "/Cryptod/static/media/gradient.12a666ed10b3b442b534.png",
+    "index.html": "/Cryptod/index.html",
+    "main.7ca172d0.css.map": "/Cryptod/static/css/main.7ca172d0.css.map",
+    "main.546c94a5.js.map": "/Cryptod/static/js/main.546c94a5.js.map",
+    "787.9d1fb4db.chunk.js.map": "/Cryptod/static/js/787.9d1fb4db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ca172d0.css",
+    "static/js/main.546c94a5.js"
+  ]
+}
