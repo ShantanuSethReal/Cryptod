@@ -24,8 +24,10 @@ export default function WatchList() {
   const getData = async () => {
     const myCoins = await get100Coins();
     const getStoredCoinId = JSON.parse(localStorage.getItem("watch"));
-    const filteredArray = myCoins.filter((value) => getStoredCoinId.includes(value.id));
-    setcoinsmatch(filteredArray);
+    if (getStoredCoinId) {
+      const filteredArray = myCoins.filter((value) => getStoredCoinId.includes(value.id));
+      setcoinsmatch(filteredArray);
+    }
   };
   const style = {
     color: "var(--white)",
